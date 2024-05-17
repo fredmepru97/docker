@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Titanic Dataset</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
+    <header>
+        <h1>Titanic Dataset</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/titanic">Titanic</a></li>
+                <li><a href="https://github.com/yourusername">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>First 5 rows of the Titanic dataset:</h2>
+        {{ titanic_preview.to_html() | safe }}
+    </main>
+    <footer>
+        <p>Made with the tears of Freddy Mercado</p>
+    </footer>
+</body>
+</html>

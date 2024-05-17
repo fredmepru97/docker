@@ -4,11 +4,22 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My first dynamic Website</title>
+    <title>Docker Exercise</title>
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 </head>
 
 <body>
+    <header>
+        <img src="https://imgix.bustle.com/uploads/image/2024/5/10/54998ee6-cffe-4a38-88e4-03dcdeb4e1c9-360-press-shot-credit-aidan-zamari.webp?w=864&h=658&fit=crop&crop=focalpoint&q=50&dpr=2&fp-x=0.4659&fp-y=0.4128" alt="I'm your favorite reference baby" width="450">
+        <h1>Docker Exercise</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/titanic">Titanic</a></li>
+                <li><a href="https://github.com/Fredmepru97">About</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <h1>I have been seen {{ count }} times.</h1>
         <ul>
@@ -16,7 +27,11 @@
             <li>{{ i }}: Hello {{ name }}! </li>
             {% endfor %}
         </ul>
+        <a href="https://www.hwr-berlin.de/">Go to HWR Berlin Homepage</a>
     </main>
+    <footer>
+        <p>Made with the tears of Freddy Mercado</p>
+    </footer>
 </body>
 
 </html>
