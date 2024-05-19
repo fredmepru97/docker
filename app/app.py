@@ -4,7 +4,7 @@ from flask import Flask, render_template
 import pandas as pd
 
 app = Flask(__name__)
-cache = redis.Redis(host='redis', port=6379)
+cache = redis.Redis(host='srv-captain--redis', port=6379)
 
 def get_hit_count():
     retries = 5
